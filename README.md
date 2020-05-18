@@ -50,7 +50,7 @@ There is a two step authentication process involving custom token and security t
 - Header Object for Authorization: 
 ```json 
 {
-"Authorization" : "Bearer <YOURSECURITYTOKEN"
+"Authorization" : "Bearer <YOURSECURITYTOKEN>"
 }
 ```
 - Response Object:
@@ -85,7 +85,7 @@ There is a two step authentication process involving custom token and security t
 - Header Object for Authorization: 
 ```json 
 {
-"Authorization" : "Bearer <YOURSECURITYTOKEN"
+"Authorization" : "Bearer <YOURSECURITYTOKEN>"
 }
 ```
 
@@ -121,7 +121,7 @@ There is a two step authentication process involving custom token and security t
 - Header Object for Authorization: 
 ```json 
 {
-"Authorization" : "Bearer <YOURSECURITYTOKEN"
+"Authorization" : "Bearer <YOURSECURITYTOKEN>"
 }
 ```
 
