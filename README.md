@@ -47,6 +47,12 @@ There is a two step authentication process involving custom token and security t
   }
 }
 ```
+- Header Object for Authorization: 
+```json 
+{
+"Authorization" : "Bearer <YOURSECURITYTOKEN"
+}
+```
 - Response Object:
 ```json 
 {
@@ -74,6 +80,12 @@ There is a two step authentication process involving custom token and security t
 ``` json
 { "data":
  { "orgID": "0gSOWUPxdXyzLgbJ7kIM" }
+}
+```
+- Header Object for Authorization: 
+```json 
+{
+"Authorization" : "Bearer <YOURSECURITYTOKEN"
 }
 ```
 
@@ -104,6 +116,12 @@ There is a two step authentication process involving custom token and security t
 { "data": {
 	"shoeID":"gP6WEwyqOcJvDxJxgWqd"
 	}
+}
+```
+- Header Object for Authorization: 
+```json 
+{
+"Authorization" : "Bearer <YOURSECURITYTOKEN"
 }
 ```
 
