@@ -1,6 +1,6 @@
 # HX API Documentation for Homer Technique Scores
 ### Section 1: Description
-There are three priority collections for the HX Innovations api. It is the following
+There are three priority collections for the HX Innovations api:
 - Organizations (list of organizations)
 - Products List (list of products currently being tested for their specific organization)
 - Product Summary (Summary of the results tested from the product) 
