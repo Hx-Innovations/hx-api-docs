@@ -37,7 +37,7 @@ There is a two step authentication process involving custom token and security t
   ```
 
 ### Section 3: Organization, Product List, and Product Summary Collection
-1. Organization Collection | POST METHOD | This method contains a list of organizations that is apart of our collection. 
+#### 1. Organization Collection | POST METHOD | This method contains a list of organizations that is apart of our collection. 
 `https://us-central1-hxapp-38bf8.cloudfunctions.net/getOrgs`
 - Payload Object: 
 ```json 
@@ -73,7 +73,7 @@ There is a two step authentication process involving custom token and security t
 }
 
 ```
-2. Product List | Post method | This method contains a list of products related to the specific organizations id
+#### 2. Product List | Post method | This method contains a list of products related to the specific organizations id
 
 `https://us-central1-hxapp-38bf8.cloudfunctions.net/getOrgProducts`
 - Payload Object: (Include organization id of the specific org 
@@ -108,7 +108,7 @@ There is a two step authentication process involving custom token and security t
     ]
 }
 ```
-3. Product Summary | Post Method | This method contains the product summary/Homer Technique Scores for a specific product id endpoint below: 
+#### 3. Product Summary | Post Method | This method contains the product summary/Homer Technique Scores for a specific product id endpoint below: 
 
 `https://us-central1-hxapp-38bf8.cloudfunctions.net/getProductSummary`
 - Payload Object: 
